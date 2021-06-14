@@ -1,0 +1,32 @@
+body{
+    padding: 0;
+    margin: 0;
+    color: #FFFFFF;
+    font-family:'Montserrat', sans-serif;
+    font-style: normal;
+    font-size: x-large;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 0 auto;
+    background:
+            url('../img/theme3.svg') no-repeat left center / cover;
+}
+
+.teamWord{
+    padding-top: 3%;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 78px;
+    color: #8FBB4B;
+    text-align: center;
+}

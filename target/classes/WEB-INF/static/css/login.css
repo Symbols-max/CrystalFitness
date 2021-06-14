@@ -1,0 +1,41 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+h1{margin: 0;
+    padding: 0;}
+
+.loginText{
+    margin-top: 7%;
+}
+
+.form-floating{
+    margin-bottom: 7%;
+}
+
+.form-signin input[type="email"] {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10%;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
